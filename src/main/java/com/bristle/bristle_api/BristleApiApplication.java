@@ -11,7 +11,7 @@ public class BristleApiApplication {
 
 	@GetMapping("/yee")
 	public String hi(){
-		return "hi andy";
+		return "<h>hi andy</h>";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(BristleApiApplication.class, args);
