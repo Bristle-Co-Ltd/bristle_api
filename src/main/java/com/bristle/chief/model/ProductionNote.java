@@ -1,4 +1,4 @@
-package com.bristle.chief.Model;
+package com.bristle.chief.model;
 
-public class production_note {
+public class ProductionNote {
 }

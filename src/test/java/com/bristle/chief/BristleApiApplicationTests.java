@@ -1,7 +1,4 @@
-package com.bristle.bristle_api;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+package com.bristle.chief;
 
 //@SpringBootTest
 class BristleApiApplicationTests {

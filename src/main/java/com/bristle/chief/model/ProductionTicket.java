@@ -1,4 +1,4 @@
-package com.bristle.chief.Model;
+package com.bristle.chief.model;
 
 public class ProductionTicket {
 }

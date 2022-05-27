@@ -1,12 +1,14 @@
 package com.bristle.chief.model;
 
+import com.bristle.chief.util.Constants;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Date;
 
-@Entity
-public class Orders {
+@Entity(name = Constants.ORDER_TABLE_NAME)
+public class Order {
 
     @Id
     @Column(name = "order_id")
@@ -18,11 +20,11 @@ public class Orders {
     @Column(name = "order_date")
     Date orderDate;
 
-    public Orders() {
+    public Order() {
 
     }
 
-    public Orders(String orderId, String orderIdPR, Date orderDate) {
+    public Order(String orderId, String orderIdPR, Date orderDate) {
         this.orderId = orderId;
         this.orderIdPR = orderIdPR;
         this.orderDate = orderDate;

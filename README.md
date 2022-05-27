@@ -1,4 +1,4 @@
-# bristle_api
+# bristle_chief
 This version has connected successfully to mariaDB on synology nas in a docker container
 http://192.168.88.6:8085/getAll -> return all columns
 http://192.168.88.6:8085/test -> return eee

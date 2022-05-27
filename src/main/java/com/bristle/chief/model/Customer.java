@@ -1,2 +1,4 @@
-package com.bristle.chief.Model;public class customer {
+package com.bristle.chief.model;
+
+public class Customer {
 }

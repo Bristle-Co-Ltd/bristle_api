@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bristle</groupId>
-	<artifactId>bristle_api</artifactId>
+	<artifactId>chief</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bristle_api</name>
+	<name>chief</name>
 	<description>Backend system for Bristle Co. Ltd</description>
 	<properties>
 		<java.version>11</java.version>
@@ -25,16 +25,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>mysql</groupId>-->
-<!--			<artifactId>mysql-connector-java</artifactId>-->
-<!--			<scope>runtime</scope>-->
-<!--		</dependency>-->
 		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.mariadb.jdbc</groupId>-->
+<!--			<artifactId>mariadb-java-client</artifactId>-->
+<!--			<scope>runtime</scope>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
